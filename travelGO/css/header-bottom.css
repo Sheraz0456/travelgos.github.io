@@ -1,0 +1,61 @@
+.header-bottom, .logo, .nav, .social-links-signin, .nav-links, .social{
+	display: flex;
+}
+.header-bottom{
+	justify-content: space-between;
+	padding-left: 20px;
+	font-family: MONTSERRAT;
+	background-color: white;
+}
+.logo, .nav, .social-links-signin{
+	align-self: center;
+}
+.logo > img{
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	padding-right: 5px;
+}
+.logo > h1{
+	font-size: 25px;
+}
+.nav > ul > li{
+	font-size: 13.5px;
+	padding-right: 45px;
+}
+.nav > ul > li:last-child{
+	padding-right: 0;
+}
+.nav > ul > li > a{
+	color: gray;
+}
+.social-links-signin > .signin > p > a{
+	padding: 21px;
+	background-color: #fee133;
+}
+.social-links-signin > .social-links{
+	padding-right: 10px;
+}
+.social-links-signin > .social-links > .social > li{
+	padding-right: 10px;
+}
+.social-links-signin > .social-links > .social > li:last-child{
+	padding-right: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+@font-face {
+  font-family: MONTSERRAT;
+  src: url(fonts/MONTSERRAT.otf);
+}
+@media only screen and (max-width: 1000px) {
+  .nav{
+  	display: none;
+  }
+
+}
